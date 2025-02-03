@@ -33,36 +33,6 @@ void bubble_sort(int arr[], int size);
 void swap(int *a, int *b);
 void print_array(const int arr[], int size);
 
-/**
- * Main function - Entry point of the program
- */
-int main() {
-    int test_cases[][7] = {
-        {64, 34, 25, 12, 22, 11, 90},
-        {5, 4, 3, 2, 1},
-        {1, 2, 3, 4, 5},
-        {10, -1, 3, 8, 5, 2, -3},
-        {},
-        {42}
-    };
-
-    int sizes[] = {7, 5, 5, 7, 0, 1};  // Sizes of the test cases
-    int num_tests = sizeof(sizes) / sizeof(sizes[0]);
-
-    printf("Testing Bubble Sort Algorithm:\n");
-
-    for (int i = 0; i < num_tests; i++) {
-        printf("\nOriginal: ");
-        print_array(test_cases[i], sizes[i]);
-
-        bubble_sort(test_cases[i], sizes[i]);
-
-        printf("Sorted  : ");
-        print_array(test_cases[i], sizes[i]);
-    }
-
-    return 0;
-}
 
 /**
  * Function: bubble_sort
