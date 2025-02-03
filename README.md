@@ -13,29 +13,29 @@ c-programming-solutions is a collection of C solutions for algorithms, data stru
 - Documentation
 
 ## 3. Selection Sort
-- Insertion Sort Code
+- Selection Sort Code
 - Documentation
 
 ## 4. Three Number Sort
-- Insertion Sort Code
+- Three Number Sort Code
 - Documentation
 
 ## 5. Quick Sort
-- Insertion Sort Code
+- Quick Sort Code
 - Documentation
 
 ## 6. Heap Sort
-- Insertion Sort Code
+- Heap Sort Code
 - Documentation
 
 ## 7. Radix Sort
-- Insertion Sort Code
+- Radix Sort Code
 - Documentation
 
 ## 8. Merge Sort
-- Insertion Sort Code
+- Merge Sort Code
 - Documentation
 
 ## 9. Count Inversions
-- Insertion Sort Code
+- Count Inversions Code
 - Documentation
