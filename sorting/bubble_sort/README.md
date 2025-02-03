@@ -1,3 +1,4 @@
+![C CI](https://github.com/kanagarajnn/c-programming-solutions/actions/workflows/c-ci.yml/badge.svg)
 # Bubble Sort Algorithm in C
 
 ## Description
