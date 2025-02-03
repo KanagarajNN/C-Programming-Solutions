@@ -1,0 +1,26 @@
+name: C CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y libcunit1 libcunit1-doc libcunit1-dev
+
+      - name: Compile C Code
+        run: gcc -o test_bubble_sort sorting/bubble_sort/tests/test_bubble_sort.c sorting/bubble_sort/src/bubble_sort.c -I/usr/include -lcunit
+
+      - name: Run CUnit Tests
+        run: ./test_bubble_sort
